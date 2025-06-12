@@ -30,7 +30,7 @@ root/
 1. `git clone <repo>` and `cd invoice-management-system`
 2. `npm run install:all` – installs root + both workspaces
 3. `cp server/env.example server/.env` – adjust secrets if needed
-4. `cp client/env.example client/.env - ajust secrets if needed
+4. `cp client/env.example client/.env` - ajust secrets if needed
 5. `npm run docker:up` – spins up Postgres 15 on port 5432
 6. `npm run db:setup` – Prisma generate → migrate (+ seed demo data)
 
