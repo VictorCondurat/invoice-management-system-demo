@@ -15,8 +15,8 @@
     "build:server": "cd server && npm run build",
     "build:client": "cd client && npm run build",
     "db:setup": "cd server && npx prisma generate && npx prisma db push && npx prisma db seed",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
     "install:all": "npm install && cd server && npm install && cd ../client && npm install"
   },
   "devDependencies": {
