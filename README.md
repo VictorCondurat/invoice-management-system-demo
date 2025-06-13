@@ -25,7 +25,7 @@ root/
 └── docker-compose.yml
 ```
 
-## Setup in Five Steps
+## Setup in Six Steps
 
 1. `git clone <repo>` and `cd invoice-management-system`
 2. `npm run install:all` – installs root + both workspaces
